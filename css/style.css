@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%
+}
+.container {
+    width: 1600px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.top {
+    margin: auto;
+    height: 436px;
+    background-image: url('/img/man1.png');
+}
+
+/*   HEADER */
+
+header {
+     display: flex;
+     height: 35.72%;
+     font-family: 'Montserrat', sans-serif;
+     
+    
+}
+ul {
+    display: flex;
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+}
+
+.head-box1 {
+    justify-items: center;
+    margin-top: 1.65em;    
+    font-size: 34px;
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.head-box2 {
+    margin-top: 4em;
+    margin-left: 12%;
+    flex: 2;
+}
+
+
+.head-box2 a {
+    text-decoration: none;
+    margin-left: 1em;
+    color: white;
+     
+}
+
+.head-box2 a:link {
+    padding: 10px;
+}
+
+.head-box2 a:hover  {
+    background-color: #00b0ff;
+    color: white;
+    
+}
+
+.head-box3 {
+    margin-top: 4.5em;
+    flex: 1;
+    margin-left: 4em;
+}
+
+
+
+
+
+.head-box3 a:hover  {
+    background-color: #00b0ff;
+    color: white;
+    
+}
+
+.head-box3 a:link {
+    padding: 10px;
+}
+
+.head-box3 a {
+    text-decoration: none;
+    color: white;
+     
+}
+
+
+
+.ride {
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ride h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ride h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+/* BLOCK BUY  */
+
+.inner_buy {
+    height: 600px;
+    width: 1000px;
+    margin-left: 25%;
+    width: 50%;
+    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.inner_buy1 {
+    height: 100%;
+    width: 45%;
+    background-image: url('/img/board2.png');
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+
+.inner_buy2 {
+    float: right;
+    height: 100%;
+    width: 55%;
+   
+}
+
+.buy_title {
+    width: 100%;
+    height: 20%;   
+    margin-top: 1em;
+    margin-left: 1em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.buy_desc {
+    margin-left: 1em;
+    width: 100%;
+    height: 60%;
+
+}
+.buy_desc p {
+    padding-top: 1em;
+    font-size: 20px;
+    
+}
+
+.buy_btn {
+    margin-top: 50px;
+    margin-left: 5%;
+    border-radius: 0.5em;
+    width: 90%;
+    height: 15%;    
+}
+
+.btn1 {
+    float: left;
+    height: 50%;
+    width: 50%;
+    
+}
+.btn2 {
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+.inner_btn1 {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin-left: 50%;
+}
+
+.inner_btn1 a {
+    text-decoration: none;
+    margin-left: 1em;
+    color: white;
+    background-color: #00b0ff;
+     
+}
+
+.inner_btn1 a:link {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.inner_btn2 {
+    text-decoration: none;
+    height: 100%;
+    width: 50%;
+}
+
+.inner_btn2 a {
+    text-decoration: none;
+    margin-left: 1em;
+    color: white;
+    background-color: #00b0ff;
+     
+}
+
+.inner_btn2 a:link {
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/* BLOCK SLIDER*/
+
+.slider {
+    background-image: url('/img/ocean1.png');
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+/*  BLOCK OF UPDATES*/
+
+.updates {
+    margin-top: 2%;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.updates h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+.inner_updates {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100%;
+    display: flex;
+   
+}
+.box1 {
+    margin-left: 1%;
+    width: 33%;
+}
+
+.box2 {
+    width: 33%;
+    margin-left: 1%;
+}
+
+.box3 {
+    width: 33%;
+    margin-left: 1%;
+}
+
+.box1_img {
+    height: 65%;
+    background-image: url('/img/ocean1.png');
+}
+
+.box2_img {
+    height: 65%;
+    background-image: url('/img/ocean1.png');
+}
+
+.box3_img {
+    height: 65%;
+    background-image: url('/img/ocean1.png');
+}
+
+.box1_text {
+    height: 35%;
+    margin: 10px;
+}   
+
+.box2_text {
+    height: 35%;
+    margin: 10px;
+}
+
+.box3_text {
+    height: 35%;
+    margin: 10px;
+}
+
+/*  BLOCK VIEWALL */
+
+.viewall {
+    margin-top: 4%;
+    margin-left: 43%;
+    margin-right: auto;
+}
+.viewall a {
+    text-decoration: none;
+    color: black;
+     
+}
+
+.viewall a:link {
+    padding: 15px;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+.viewall a:hover  {
+    background-color: #00b0ff;
+    color: black;
+    
+}
+
+/* FOOTER   */
+
+footer { 
+    margin-top: 3em;
+    height: 300px;
+    background-color: black;
+}
+.inner_footer {
+    height: 100%;
+    width: 100%;
+}
+
+.footer1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.footer2 {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.inner_footer1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+}
+
+.inner_footer2 {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+}
+
+.inner_footer3 {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+}
